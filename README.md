@@ -34,6 +34,7 @@ Prepare the files: Place your resume (resume.docx) and job description (job_desc
 Run the script:
 
 python main.py
+
 Output:
 
 A similarity score (how well the resume matches the job description).
@@ -41,6 +42,7 @@ A similarity score (how well the resume matches the job description).
 Actionable recommendations on what to improve in the resume.
 
 Features
+
 ✔ Text Analysis – Uses machine learning & NLP to process resume and job description.
 ✔ Similarity Scoring – Calculates how well a resume matches a job description.
 ✔ AI-Powered Suggestions – Provides detailed improvement tips for resumes.
