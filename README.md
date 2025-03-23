@@ -1,37 +1,47 @@
-# Resume & Job Description Analyzer
+Resume & Job Description Analyzer
 
-This project analyzes job descriptions and resumes to provide a similarity score and actionable recommendations for improving the alignment between the two. It uses machine learning and natural language processing techniques to compare key phrases, skills, and experience listed in a resume with those required in a job description.
+Description
+The Resume & Job Description Analyzer is a machine learning-based tool that helps job seekers optimize their resumes by comparing them against job descriptions. It calculates a similarity score and provides actionable recommendations to improve resume alignment with the job requirements.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Usage](#usage)
-3. [Features](#features)
+Purpose
+Many job seekers struggle to tailor their resumes for specific job applications. This tool automates the process by identifying missing skills, experience gaps, and relevant keywords, ensuring a better match between the resume and job description.
 
+Value
+Enhances job application success rates by optimizing resumes for Applicant Tracking Systems (ATS) and recruiters.
 
-## Introduction
+Saves time by automating resume analysis and comparison.
 
-This application helps job seekers improve their resumes by comparing them against job descriptions. The tool provides a similarity score and offers recommendations to add or improve specific sections of the resume, such as skills, experience, and qualifications.
+Provides AI-driven recommendations tailored to different job industries, including IT, HR, and healthcare.
 
-## Usage
+Technologies Used
+Python – Core programming language
 
-Once you have the project set up, you can start analyzing resumes and job descriptions.
+Natural Language Processing (NLP) – Text analysis
 
-### Example:
-1. Place your resume (`resume.docx`) and job description (`job_description.docx`) in the project folder.
-2. Run the script:
-    ```bash
-    python main.py
-    ```
+Sentence Transformers (Hugging Face) – For semantic similarity comparison
 
-The script will output:
-- A similarity score between the resume and job description.
-- Actionable recommendations for improving the resume, such as adding specific skills or experience that are missing in the resume compared to the job description.
+OpenAI GPT-4 – For advanced resume recommendations
 
-## Features
+Tkinter (GUI Integration) – For user-friendly interface (future update)
 
-- **Text Analysis**: Using Hugging Face transformers, the tool processes the text from resumes and job descriptions to calculate similarities.
-- **Actionable Recommendations**: The tool generates recommendations on what to improve in your resume based on the job description.
-- **Resume Compatibility**: The tool supports various sectors, including IT, Blockchain, HR, and more.
+docx (python-docx) – To process .docx resumes and job descriptions
 
+Usage
+Follow these steps to analyze a resume against a job description:
 
+Prepare the files: Place your resume (resume.docx) and job description (job_description.docx) in the GUI.
 
+Run the script:
+
+python main.py
+Output:
+
+A similarity score (how well the resume matches the job description).
+
+Actionable recommendations on what to improve in the resume.
+
+Features
+✔ Text Analysis – Uses machine learning & NLP to process resume and job description.
+✔ Similarity Scoring – Calculates how well a resume matches a job description.
+✔ AI-Powered Suggestions – Provides detailed improvement tips for resumes.
+✔ Industry Support – Works for multiple fields like IT, HR, healthcare, etc.
