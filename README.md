@@ -34,108 +34,60 @@ Clone **CVlyzer** to your local machine using Git:
 ```bash
 git clone https://github.com/deadpool-kha/CVlyzer.git
 cd CVlyzer
+exit
+ ``` 
 
-2. Install Python
+### 2.Install Python
 Ensure you have Python 3.x installed. If you don't have Python installed, download and install it from the official Python website.
 
 Check your Python version:
-
-bash
-Copy
-Edit
+```bash
 python --version
-3. Install Required Libraries
-Install the necessary dependencies using the following command:
+exit
+```
+3. **Install Required Libraries**  
+   Install the necessary dependencies using the following command:
+   
+   ```bash
+   pip install -r requirements.txt
+    exit
+   ```
+   This will install:
+    ttkbootstrap
+    requests
+    python-docx
+    PyPDF2
+    jupyter
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-This will install:
+## 4. Install and Start Ollama
 
-ttkbootstrap
-
-requests
-
-python-docx
-
-PyPDF2
-
-jupyter
-
-4. Install and Start Ollama
-Ollama is required to process AI-driven analysis. You can download Ollama from the Ollama website.
+Ollama is required to process AI-driven analysis. You can download Ollama from the [Ollama website](https://ollama.com).
 
 Once Ollama is installed, start the service with the following command:
 
-bash
-Copy
-Edit
+```bash
 ollama serve
-This will launch Ollama locally at http://localhost:11434.
-
-5. Launch Jupyter Notebook
-Run Jupyter Notebook to launch the CVlyzer application:
-
-bash
-Copy
-Edit
+exit
+```
+##5. Launch Jupyter Notebook
+   Run Jupyter Notebook to launch the CVlyzer application:
+   ```bash
 jupyter notebook
-Once Jupyter is running, open CVlyzer.ipynb from the Jupyter interface.
+exit
+```
+    
+# How to Use the App
 
-How to Use the App
-1. Upload Your Files
-Upload your resume (in .docx or .pdf format).
+## 1. Upload Your Files
+- Upload your resume (in .docx or .pdf format).
+- Upload the job description (also in .docx or .pdf format).
 
-Upload the job description (also in .docx or .pdf format).
+## 2. Start Analysis
+- Click the "Run" button in the notebook to start the analysis.
+- The app will process your resume and job description, and return:
+  - A similarity score (how well your resume matches the job description).
+  - Actionable recommendations on how to improve your resume.
 
-2. Start Analysis
-Click the "Run" button in the notebook to start the analysis.
+        
 
-The app will process your resume and job description, and return:
 
-A similarity score (how well your resume matches the job description).
-
-Actionable recommendations on how to improve your resume.
-
-Troubleshooting
-Ollama Not Running:
-Ensure that Ollama is running by using the command:
-
-bash
-Copy
-Edit
-ollama serve
-Ollama should be accessible at http://localhost:11434.
-
-File Issues:
-Make sure the files are in either .docx or .pdf format and are not password-protected or corrupted.
-
-YouTube Video Tutorial
-For a more visual walkthrough, check out our YouTube tutorial:
-YouTube Link
-
-Contributing
-We welcome contributions to CVlyzer! To contribute:
-
-Fork the repository.
-
-Create a new branch.
-
-Make your changes and submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-Ollama for providing the powerful AI models.
-
-Jupyter for making interactive notebooks possible.
-
-The Open Source Community for making this project a reality.
-
-🎉 Happy Job Hunting! 😎
-
-vbnet
-Copy
-Edit
