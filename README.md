@@ -43,14 +43,14 @@ Ensure you have Python 3.x installed. If you don't have Python installed, downlo
 Check your Python version:
 ```bash
 python --version
-exit
+
 ```
 3. **Install Required Libraries**  
    Install the necessary dependencies using the following command:
    
    ```bash
    pip install -r requirements.txt
-    exit
+    
    ```
    This will install:
     ttkbootstrap
@@ -67,13 +67,13 @@ Once Ollama is installed, start the service with the following command:
 
 ```bash
 ollama serve
-exit
+
 ```
 ##5. Launch Jupyter Notebook
    Run Jupyter Notebook to launch the CVlyzer application:
    ```bash
 jupyter notebook
-exit
+
 ```
     
 # How to Use the App
