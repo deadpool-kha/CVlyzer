@@ -34,7 +34,7 @@ Clone **CVlyzer** to your local machine using Git:
 ```bash
 git clone https://github.com/deadpool-kha/CVlyzer.git
 cd CVlyzer
-exit
+
  ``` 
 
 ### 2.Install Python
