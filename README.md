@@ -59,7 +59,7 @@ python --version
     PyPDF2
     jupyter
 
-## 4. Install and Start Ollama
+### 4. Install and Start Ollama
 
 Ollama is required to process AI-driven analysis. You can download Ollama from the [Ollama website](https://ollama.com).
 
@@ -68,6 +68,14 @@ Once Ollama is installed, start the service with the following command:
 ```bash
 ollama serve
 
+```
+5. Fetch the LLaMA 3 Model
+To enable AI-powered analysis, you must fetch the LLaMA 3 model using the following command:
+
+
+
+```bash 
+!ollama pull llama3
 ```
 ##5. Launch Jupyter Notebook
    Run Jupyter Notebook to launch the CVlyzer application:
