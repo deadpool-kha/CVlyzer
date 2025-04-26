@@ -86,6 +86,10 @@ jupyter notebook
     
 # How to Use the App
 
+# Watch the Tutorial
+Check out this video guide for a full walkthrough of how to use CVlyzer:
+https://www.youtube.com/watch?v=Wh-eBSuQ-Uw
+
 ## 1. Upload Your Files
 - Upload your resume (in .docx or .pdf format).
 - Upload the job description (also in .docx or .pdf format).
