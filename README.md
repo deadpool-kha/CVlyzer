@@ -75,7 +75,7 @@ To enable AI-powered analysis, you must fetch the LLaMA 3 model using the follow
 
 
 ```bash 
-!ollama pull llama3
+ollama pull llama3
 ```
 ##5. Launch Jupyter Notebook
    Run Jupyter Notebook to launch the CVlyzer application:
